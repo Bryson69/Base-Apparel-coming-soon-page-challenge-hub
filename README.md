@@ -35,7 +35,7 @@ Users should be able to:
 ![Design preview for the Base Apparel coming soon page coding challenge](./design/project-solution.jpg)
 
 ### Links
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Base Apparel coming soon](https://baseaapparel.netlify.app/)
 
 ## My process
 
@@ -68,4 +68,4 @@ To see how you can add code snippets, see below:
 
 ## Author
 
-- Frontend Mentor - [@bryson6](https://www.frontendmentor.io/profile/bryson69)
+- Frontend Mentor - [@Bryson69](https://www.frontendmentor.io/profile/Bryson69)
