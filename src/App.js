@@ -1,6 +1,7 @@
 import logo from './images/logo.svg';
 import buttonIcon from './images/icon-arrow.svg';
 import heroImg from './images/hero-desktop.jpg';
+import errorImg from './images/icon-error.svg';
 import './App.css';
 import React, { useState, useEffect } from "react";
 
@@ -39,7 +40,7 @@ function App() {
       errors.email = "This is not a valid email format!";
     }
     else if (regex.test(values.email)) {
-      errors.email = "Your Email has been saved Successfully";
+      errors.email = "Your Email has been saved Successfully,";
     }
     return errors;
   };

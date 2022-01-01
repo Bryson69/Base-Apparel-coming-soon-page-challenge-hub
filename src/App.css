@@ -62,7 +62,7 @@
   color: #ce9797;
   vertical-align: top;
   letter-spacing: 2px;
-  background-color: transparent;
+  background-color: #FFF5F5;
 }
 
 ::placeholder {
@@ -81,14 +81,13 @@
   cursor: pointer;
   background-image: linear-gradient(to right, #f8bfbf, #EE8C8C);
   border: none;
-  justify-content: center;
+  box-shadow:  2px 2px 10px #d0b3b3;
 }
 
 .message{
   font-weight: 600;
   letter-spacing: 1px;
   color: #ce9797;
-  margin-left: 20px;
 }
 
 .right-side{
@@ -102,4 +101,41 @@
   object-fit: cover;
   background-position: top;
   overflow: hidden;
+}
+
+
+@media screen and (max-width: 375px) {
+  .container{
+    display: grid;
+    margin: auto;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+  }
+  .left-side{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  .left{
+    max-width: 100%;
+    margin: 0;
+    margin-top: 30px;
+  }
+  .right-side{
+    display: none;
+  }
+  .heading{
+    font-size: 3em;
+  }
+  .headline-paragraph{
+    line-height: 20px;
+    font-size: 1em;
+  }
+  .input{
+    width: 250px;
+  }
+  .message{
+    text-align: left;
+  }
 }
