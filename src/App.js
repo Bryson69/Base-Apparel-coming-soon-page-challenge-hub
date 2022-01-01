@@ -33,7 +33,7 @@ function App() {
   }, [formError]);
   const validate = (values) => {
     const errors = {};
-    const regex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
+    const regex = /\S+@\S+\.\S+/;
     if (!values.email) {
       errors.email = "Email is required!";
     } else if (!regex.test(values.email)) {
