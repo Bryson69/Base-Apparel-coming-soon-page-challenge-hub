@@ -12,10 +12,7 @@ This is a solution to the [Base Apparel coming soon page challenge on Frontend M
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+
 
 
 ## Overview
@@ -32,7 +29,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Design preview for the Base Apparel coming soon page coding challenge](./design/project-solution.jpg)
+![Design preview for the Base Apparel coming soon page coding challenge](./design/project-solution.PNG)
 
 ### Links
 - Live Site URL: [Base Apparel coming soon](https://baseaapparel.netlify.app/)
@@ -64,8 +61,3 @@ To see how you can add code snippets, see below:
 }
 ```
 
-
-
-## Author
-
-- Frontend Mentor - [@Bryson69](https://www.frontendmentor.io/profile/Bryson69)
