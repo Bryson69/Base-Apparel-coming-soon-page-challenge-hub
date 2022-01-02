@@ -47,12 +47,13 @@ function App() {
 
 
   return (
+    <>
     <div className="container">
       <div className='left-side'>
         <div className='left'>
           <img src={logo} className='logo' alt="logo" />
           <div className='headline-content'>
-            <h2 className='heading'><span className='headline-link'>WE'RE</span> <br /> COMING <br /> SOON</h2>
+            <h1 className='heading'><span className='headline-link'>WE'RE</span> <br /> COMING <br /> SOON</h1>
             <p className='headline-paragraph'> Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcemments and our launch deals</p>
           </div>
           <div> 
@@ -65,7 +66,7 @@ function App() {
             placeholder='Email Address'
             className='input'
           />
-          <button type='submit' className='button'> <img src={buttonIcon}  alt="" /> </button>
+          <button type='submit' className='button' aria-label="Email"> <img src={buttonIcon}  alt="" /> </button>
           <p className='message'>{formError.email}</p>
           </form>
           </div>
@@ -75,6 +76,7 @@ function App() {
         <img src={heroImg} className='hero-img' alt="" />
       </div>
     </div>
+    </>
   );
 }
 
